@@ -9,6 +9,33 @@ The Secure Arithmetic Operation API is a Node.js application that provides a sec
 - Protected endpoints for addition, subtraction, multiplication, and division
 - Each endpoint accepts two input parameters for the arithmetic operation
 
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+What things you need to install the software and how to install them:
+
+* Node.js
+* npm
+
+### Installation
+
+A step-by-step series of examples that tell you how to get a development environment running:
+
+Clone the repository:
+```bash
+   git clone https://github.com/akash-tk/AuthArithmetix.git
+   cd AuthArithmetix
+```
+
+Install the necessary node modules:
+
+```bash
+ npm install 
+```
+
 ## Configuration
 
 To get your application running, you need to set up your environment variables:
@@ -19,7 +46,13 @@ To get your application running, you need to set up your environment variables:
 ```env
 JWT_SECRET=your-jwt-secret
 ```
+Start the server:
 
+```bash
+node server.js
+```
+
+The server will start on port 3000 or the next available port.
 ## Usage
 
 Authenticate to receive a JWT token, then perform arithmetic operations by sending requests to:
