@@ -49,7 +49,7 @@ JWT_SECRET=your-jwt-secret
 Start the server:
 
 ```bash
-node server.js
+node index.js
 ```
 
 The server will start on port 3000 or the next available port.
