@@ -1,6 +1,13 @@
-# AuthArithmetix
+# AuthArithmetix : Secure Arithmetic Operation API with Authentication
 
-Simple Node.js application to perform secure arithmetic operations with JWT authentication.
+The Secure Arithmetic Operation API is a Node.js application that provides a secure way to perform basic arithmetic operations. This service uses JSON Web Tokens (JWT) for authentication, ensuring that only authorized clients can access the API endpoints to perform addition, subtraction, multiplication, and division operations.
+
+## Features
+
+- JWT-based authentication to secure API endpoints
+- Ability to generate a JWT token upon successful authentication
+- Protected endpoints for addition, subtraction, multiplication, and division
+- Each endpoint accepts two input parameters for the arithmetic operation
 
 ## Usage
 
@@ -12,3 +19,9 @@ Authenticate to receive a JWT token, then perform arithmetic operations by sendi
 - `/divide` for division
 
 Include JWT token in the `Authorization` header.
+
+## Built With
+
+- [Node.js](https://nodejs.org/) - JavaScript runtime
+- [Express.js](https://expressjs.com/) - Web application framework
+- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) - JWT implementation for Node.js
