@@ -53,6 +53,13 @@ node index.js
 ```
 
 The server will start on port 3000 or the next available port.
+
+## Postman
+You can find the Postman collection in /Postman directory to easily test the API endpoints.
+
+## Screenshots
+You can find the Screenshots of the implementation in /Screenshots directory.
+
 ## Usage
 
 Authenticate to receive a JWT token, then perform arithmetic operations by sending requests to:
